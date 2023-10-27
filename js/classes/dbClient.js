@@ -257,7 +257,7 @@ class DBClient{
 		deck = deck.map((e)=>{
 			return {
 				q:e.quantity,
-				n:e.name,
+				n:e.cardId,
 			}
 		});
 		
