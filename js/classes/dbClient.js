@@ -1,7 +1,7 @@
 class DBClient{
 
 	constructor(username,password){
-		this.version = 676;
+		this.version = 755;
 		
 		this.messageNumber = 0;
 		
