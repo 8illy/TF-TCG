@@ -35,6 +35,7 @@ class Player{
 		
 		this.originalSideDeckList = [];
 		this.originalDeckList = [];
+		this.originalCharacters = [];
 		
 	}
 
