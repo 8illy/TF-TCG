@@ -525,7 +525,7 @@ class DBClient{
 
 			let lines = JSON.parse(data.deck).map((e)=>{
 				return {
-					name : e.n,
+					cardId : e.n,
 					quantity : e.q,
 				}
 			});
